@@ -7,3 +7,45 @@
   font-optical-sizing: auto;
   
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.text-gray{
+    color: #424242;
+}
+.text-dark-gray{
+    color: #727272;
+}
+
+/* header styles */
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.brand{
+    font: 700;
+    font-size: 3rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
