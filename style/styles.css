@@ -21,6 +21,18 @@
 .text-dark-gray{
     color: #727272;
 }
+.text-medium-gray{
+    color: rgba(114, 114, 114, 1);
+}
+.btn-primary{
+    background-color:rgba(255, 144, 14, 1) ;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding:20px 25px;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
 
 /* header styles */
 
@@ -48,4 +60,24 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+/* banner related styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-image{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
 }
