@@ -24,6 +24,12 @@
 .text-medium-gray{
     color: rgba(114, 114, 114, 1);
 }
+.orange-color{
+    color: #FF900E;
+}
+.dark-1{
+    color: #131313;
+}
 .btn-primary{
     background-color:rgba(255, 144, 14, 1) ;
     color: #FFFFFF;
@@ -32,6 +38,9 @@
     padding:20px 25px;
     font-size: 1.25rem;
     margin-bottom: 3rem;
+}
+.display-grid{
+    display: grid;
 }
 
 /* header styles */
@@ -73,11 +82,45 @@
 }
 .banner-image{
     width: 100%;
+    margin-bottom: 45px;
+}
+/* our features styles */
+.teams{
+    width: 70%;
+    margin: 80px auto;
+}
+.team-img-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 70px;
+}
+.feature-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.quick-list{
+    font-weight: 500;
+}
+.our-features p{
+    margin-bottom:32px ;
 }
 
+
+
 @media screen and (max-width:576px) {
-    .navbar, .nav-links{
+    .navbar, 
+    .nav-links
+    .teams{
         flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
     }
     
 }
